@@ -18,7 +18,7 @@ const ToDoList = () => (
       Ranger le salon
       <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
     </li>
-</ul>
+  </ul>
 
 )
 

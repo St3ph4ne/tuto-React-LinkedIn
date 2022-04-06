@@ -7,7 +7,7 @@ const NavBar = () => (
     <div className="btn-group">
       <a href='/' className='btn btn-outline-dark bg-light'><FaListAlt /></a>
       <a href='/' className='btn btn-outline-dark bg-light'><FaCheckSquare /></a>
-      <a href='/' className='btn btn-outline-dark bg-light'><FaPlusSquare /></a>
+      <a href='/add-task' className='btn btn-outline-dark bg-light'><FaPlusSquare /></a>
     </div>
     <button className='btn btn-outline-dark bg-light'><FaTrash /></button>
   </footer>

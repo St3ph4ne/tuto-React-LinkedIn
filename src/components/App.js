@@ -13,8 +13,8 @@ class App extends React.Component{
         <BrowserRouter>
           {/* 'switch'->'Routes' et 'component'->'element' !!! */}
           <Routes>
-            <Route path="/add-task" element={<AddTask/>} />
             <Route path="/" element={<ToDoList/>} />
+            <Route path="/add-task" element={<AddTask/>} />
           </Routes>
           <NavBar />
         </BrowserRouter>

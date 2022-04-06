@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import de la feuille de style de bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import App from './components/App'
+import './css/toDo.css';
 
 
 

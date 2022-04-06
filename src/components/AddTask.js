@@ -7,9 +7,9 @@ const AddTask = () => (
       <form className="card-body" onSubmit={e => this.handleSubmit(e)}>
         <div className="form-group">
           <label form="taskName">Nom de la tâche</label>
-          <input type="text" className="form-control" name="taskName" id="taskName"/>
+          <input type="text" className="form-control mt-2" name="taskName" id="taskName"/>
         </div>
-        <button type="submit" className="btn btn-primary">Créer</button>
+        <button type="submit" className="btn btn-primary mt-3">Créer</button>
       </form>
     </div>
   </section>
